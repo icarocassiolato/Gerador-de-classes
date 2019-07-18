@@ -1,0 +1,99 @@
+object GerarClasseFrm: TGerarClasseFrm
+  Left = 0
+  Top = 0
+  Caption = 'Gerar Classe'
+  ClientHeight = 242
+  ClientWidth = 248
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object EdtTabela: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Align = Top
+    TabOrder = 0
+    Position.X = 20.000000000000000000
+    Position.Y = 10.000000000000000000
+    Margins.Left = 20.000000000000000000
+    Margins.Top = 10.000000000000000000
+    Margins.Right = 20.000000000000000000
+    Size.Width = 208.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TextPrompt = 'Tabela'
+  end
+  object EdtCaminhoArquivo: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Align = Top
+    TabOrder = 1
+    Position.X = 20.000000000000000000
+    Position.Y = 42.000000000000000000
+    Margins.Left = 20.000000000000000000
+    Margins.Top = 10.000000000000000000
+    Margins.Right = 20.000000000000000000
+    Size.Width = 208.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TextPrompt = 'Caminho do arquivo'
+  end
+  object BtnGerarClasse: TButton
+    Align = Center
+    TabOrder = 6
+    Text = 'Gerar Classe'
+    OnClick = BtnGerarClasseClick
+  end
+  object CbxImplemetarGettersSetters: TCheckBox
+    Align = Top
+    Margins.Left = 20.000000000000000000
+    Margins.Top = 10.000000000000000000
+    Position.X = 20.000000000000000000
+    Position.Y = 170.000000000000000000
+    Size.Width = 228.000000000000000000
+    Size.Height = 19.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    Text = 'Implementar Getters and Setters'
+  end
+  object EdtHeranca: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Align = Top
+    TabOrder = 2
+    Position.X = 20.000000000000000000
+    Position.Y = 74.000000000000000000
+    Margins.Left = 20.000000000000000000
+    Margins.Top = 10.000000000000000000
+    Margins.Right = 20.000000000000000000
+    Size.Width = 208.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TextPrompt = 'Heran'#231'a'
+  end
+  object EdtUsesInterface: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Align = Top
+    TabOrder = 3
+    Position.X = 20.000000000000000000
+    Position.Y = 106.000000000000000000
+    Margins.Left = 20.000000000000000000
+    Margins.Top = 10.000000000000000000
+    Margins.Right = 20.000000000000000000
+    Size.Width = 208.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TextPrompt = 'Uses Interface'
+  end
+  object EdtUsesImplementation: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Align = Top
+    TabOrder = 4
+    Position.X = 20.000000000000000000
+    Position.Y = 138.000000000000000000
+    Margins.Left = 20.000000000000000000
+    Margins.Top = 10.000000000000000000
+    Margins.Right = 20.000000000000000000
+    Size.Width = 208.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TextPrompt = 'Uses Implementation'
+  end
+end
